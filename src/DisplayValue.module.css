@@ -1,0 +1,136 @@
+
+.Display{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    color: darkslategray;
+    font-size: 120px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.App {
+    display: flex;
+
+    gap: 50px;
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*background-color: #024141;*/
+    /*border-radius: 20px;*/
+    /*border: aqua 2px solid;*/
+    /*padding: 30px;*/
+}
+
+
+
+.errorStyle {
+    color: red;
+    font-size: 45px;
+}
+
+.styleSet {
+    color: #000009;
+    font-size: 45px;
+}
+
+.inputStyle {
+    color: #000009;
+    font-size: 30px;
+}
+
+.NumberError {
+    color: red;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.Number1 {
+    color: #000009;
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+.d-style {
+    color: red;
+    opacity: 0.6;
+
+
+}
+
+
+.Counter1 {
+
+
+    width: 300px;
+    height: 300px;
+    background-color: #0b4646;
+    border-radius: 20px;
+    border:aqua 2px solid;
+    padding: 30px;
+
+
+
+
+
+}
+.Counter2 {
+    width: 300px;
+    height: 300px;
+    background-color: #0b4646;
+    border-radius: 20px;
+    border:aqua 2px solid;
+    padding: 30px;
+
+
+}
+
+body {
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+    /*padding: 100px;*/
+
+
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #8fe8e8;
+    border-radius: 8px;
+    border: 2px solid #085170;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+
+
+}
+
+
+.Error_1 {
+    background-color: #cc8d8d;
+    border-radius: 5px;
+    border: 3px solid #e30404;
+    padding: 3px;
+}
+
+.Input_style {
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    background-color: #8ac4e8;
+    padding: 3px;
+}

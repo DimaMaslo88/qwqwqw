@@ -75,7 +75,6 @@ function App() {
 
     }
 
-
     const errorValue = edit === 'Incorrect Value'
 
     const errorNumber = counter === endValue
@@ -84,19 +83,8 @@ function App() {
     const disabledRes = counter === startValue || startValue < 0 || startValue >= endValue
     const disabledSet = startValue < 0 || startValue >= endValue
     return (
+
         <div className="App">
-
-            <div className="Counter1">
-                <Counter display={counter}
-                         errorNumber={errorNumber}
-                         edit={edit}
-                />
-                <div className="Buttons">
-                <Button title={"Inc"} onClick={counterInc} disabled={disabledInc}/>
-                <Button title={"Reset"} onClick={counterRes} disabled={disabledRes}/>
-                </div>
-            </div>
-
             <div className="Counter2">
                 <SetCounter minValue={startValue}
                             maxValue={endValue}
@@ -104,14 +92,27 @@ function App() {
                             setMaxValue={endValueHandler}
                             error={errorValue}
                 />
-                <div className="Buttons">
+                <div className="Button2">
                     <ButtonSet title={"Set"}
                                setHandler={setChange}
                                disabled={disabledSet}
+                               edit={edit}
                     />
 
                 </div>
             </div>
+
+            <div className="Counter1">
+                <Counter display={counter}
+                         errorNumber={errorNumber}
+                         edit={edit}
+                />
+                <div className="Buttons">
+                    <Button title={"Inc"} onClick={counterInc} disabled={disabledInc}/>
+                    <Button title={"Reset"} onClick={counterRes} disabled={disabledRes}/>
+                </div>
+            </div>
+
 
         </div>
 

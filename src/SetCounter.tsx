@@ -1,6 +1,6 @@
 import React from 'react';
 import {ValueSetting} from "./ValueSetting";
-
+import s from './Counter.module.css'
 export type PropsType = {
     minValue: number
     maxValue: number
@@ -16,7 +16,7 @@ export type PropsType = {
 export const SetCounter = (props: PropsType) => {
 
     return (
-        <div>
+        <div className={s.Display2}>
 
 
             <ValueSetting title='Start Value'

@@ -1,5 +1,11 @@
+
+
+
+
 .App {
     display: flex;
+
+    gap: 50px;
     /*width: 300px;*/
     /*height: 300px;*/
     /*background-color: #024141;*/
@@ -8,17 +14,16 @@
     /*padding: 30px;*/
 }
 
-.Display{
-    /*width: 100px;*/
-    /*height: 100px;*/
-    /*background-color: #024141;*/
-    /*border-radius: 20px;*/
-    /*border: aqua 2px solid;*/
-    /*padding: 10px;*/
-}
+
+
+
 
 .errorStyle {
     color: red;
+    font-size: 45px;
+}
+.goodStyle{
+    color: black;
     font-size: 45px;
 }
 
@@ -33,15 +38,17 @@
 }
 
 .NumberError {
+    padding: 10px;
     color: red;
-    font-size: 120px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 620;
 }
 
 .Number1 {
+    padding: 10px;
     color: #000009;
-    font-size: 80px;
-    font-weight: 500;
+    font-size: 90px;
+    font-weight:620;
 
 }
 
@@ -54,30 +61,27 @@
 
 
 .Counter1 {
+
+
     width: 300px;
     height: 300px;
-    background-color: #024141;
+    background-color: #0b4646;
     border-radius: 20px;
-    border: aqua 2px solid;
+    border:aqua 2px solid;
     padding: 30px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*padding: 4px;*/
+
+
+
 
 
 }
 .Counter2 {
     width: 300px;
     height: 300px;
-    background-color: #024141;
+    background-color: #0b4646;
     border-radius: 20px;
-    border: aqua 2px solid;
+    border:aqua 2px solid;
     padding: 30px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*padding: 4px;*/
 
 
 }
@@ -93,7 +97,13 @@ body {
 .Buttons {
     display: flex;
     justify-content: space-between;
-    /*padding: 100px;*/
+
+
+
+}.Button2 {
+    display: flex;
+    justify-content: space-between;
+  margin-left: 70px;
 
 
 }
@@ -113,6 +123,8 @@ body {
 
 
 .Error_1 {
+    height: 25px;
+    width: 200px;
     background-color: #cc8d8d;
     border-radius: 5px;
     border: 3px solid #e30404;
@@ -120,6 +132,8 @@ body {
 }
 
 .Input_style {
+    height: 25px;
+    width: 200px;
     border-radius: 5px;
     border: 3px solid darkblue;
     background-color: #8ac4e8;

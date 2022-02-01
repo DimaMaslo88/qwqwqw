@@ -1,4 +1,5 @@
 import React, {ChangeEvent, useState} from 'react';
+import s from "./ValueSetting.module.css"
 
 type PropsType = {
     displayValue: number
@@ -22,15 +23,17 @@ export const ValueSetting: React.FC<PropsType> = ({displayValue, title, setDispl
 
     return (
         <div>
-            {title}
+        <div className={s.title}>
+            {title }
+        </div>
+        <div>
             <input className={errorValue ? 'Error_1' : 'Input_style'}
-                // disabled={disabledValue}
-
                    onChange={onChangeCallback}
                    value={value}
 
                    type='number'/>
         </div>
+            </div>
     );
 };
 
